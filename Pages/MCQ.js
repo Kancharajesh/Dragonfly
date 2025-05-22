@@ -16,7 +16,7 @@ export class MCQ{
     
 
     this.S_Explain = page.locator("//span[normalize-space()='Explanation Field']");
-    
+     
     // Description.
     this.S_Description = page.locator("//span[normalize-space()='Description Field']");
     this.S_Description_field = page.locator("(//div[contains(@class,'flex flex-col mb-[71.5px] gap-4 relative mr-[100px] ml-[88px] mt-[44px]')])[1]");
