@@ -4,7 +4,7 @@ export class Login {
     this.Email_input = "input[placeholder='Enter email here']";
     this.Password_input = "input[placeholder='Enter password here']";
     this.Login_button = ".loginpage_loginButton__5ocqs";
-    this.Home_Create_survey = "div[class='flex bg-[#6937D3] text-white px-[51px] h-[61px] items-center gap-5 cursor-pointer']";
+    this.Home_Create_survey = "button[class='flex bg-[#6937D3] text-white px-[51px] h-[61px] items-center gap-5 cursor-pointer hover:bg-opacity-95']";
   }
 
   async launchBrowser() {
